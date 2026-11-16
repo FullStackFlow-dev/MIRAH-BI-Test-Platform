@@ -1,0 +1,45 @@
+{
+  "mirah_postgres": {
+    "conn_type": "postgres",
+    "host": "localhost",
+    "port": 5434,
+    "schema": "public",
+    "login": "database_engineer",
+    "password": "",
+    "database": "restaurant_bi"
+  },
+  "mirah_mysql": {
+    "conn_type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "schema": "",
+    "login": "database_engineer",
+    "password": "",
+    "database": "restaurant_bi"
+  },
+  "mirah_mssql": {
+    "conn_type": "mssql",
+    "host": "localhost",
+    "port": 1433,
+    "schema": "dbo",
+    "login": "database_engineer",
+    "password": "",
+    "database": "restaurant_bi",
+    "extra": {
+      "trust_server_certificate": true,
+      "encrypt": "optional"
+    }
+  },
+  "mirah_snowflake": {
+    "conn_type": "snowflake",
+    "login": "",
+    "schema": "",
+    "extra": {
+      "account": "",
+      "warehouse": "",
+      "database": "",
+      "role": "",
+      "private_key_file": ""
+    }
+  }
+}
