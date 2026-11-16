@@ -1,0 +1,31 @@
+# DATA ENGINEERING
+pandas==3.0.6
+numpy==2.3.3
+pyarrow==26.0.0
+# fastparquet==2024.11.0
+
+# DATABASES
+sqlalchemy==2.0.43
+psycopg2-binary==2.9.11
+pymysql==1.1.2
+pyodbc==5.3.0
+
+# DATA GENERATION
+faker==37.6.0
+
+# CONFIGURATION
+python-dotenv==1.1.1
+PyYAML==6.0.3
+
+# DATA ANALYSIS
+matplotlib==3.10.5
+seaborn==0.13.2
+plotly==6.3.0
+openpyxl==3.1.5
+
+# NOTEBOOKS
+jupyter==1.1.1
+notebook==7.4.5
+
+# TESTS
+pytest==8.4.1

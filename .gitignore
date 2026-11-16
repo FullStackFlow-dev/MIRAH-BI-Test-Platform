@@ -1,0 +1,32 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.venvs/
+.mirah-bi/
+
+# Generated data and exports
+/data/
+/data 2/
+*.parquet
+*.parquet.gzip
+*.csv
+*.jsonl
+
+# Logs and notebook state
+/logs/
+*.log
+.ipynb_checkpoints/
+
+# Local executables and OS/editor files
+*.exe
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
